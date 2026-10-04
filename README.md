@@ -184,7 +184,7 @@ power-bi-credit-card-dashboard/
 
 ## 📌 Contexto do projeto
 
-Projeto desenvolvido para fins de **estudo e portfólio em análise de dados / Business Intelligence**, com foco na construção de um dashboard de clientes de cartão de crédito e análise de churn utilizando Power BI.
+Projeto desenvolvido para fins de **estudo e portfólio em análise de dados / Business Intelligence**, com foco na construção de um dashboard de clientes de cartão de crédito e análise de churn com uso de Power BI e com uso de banco de dados público do KAGGLE.
 
 ---
 
