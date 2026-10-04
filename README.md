@@ -1,5 +1,7 @@
 # 📊 Dashboard de Clientes de Cartão de Crédito — Power BI
 
+<img src="img.JPG" width=70% height=70%/>
+
 ## 📌 Sobre o projeto
 
 Este projeto foi desenvolvido no **Power BI** com o objetivo de analisar o perfil de clientes de cartão de crédito e acompanhar indicadores relacionados à **retenção e churn**.
