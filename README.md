@@ -77,22 +77,41 @@ Ambas com `formatString: 0`.
 
 Página única **"Dashboard"** (1920×1080, `FitToPage`), título "DASHBOARD DE CLIENTES DE CARTÃO DE CRÉDITO" (bold, 28pt, centralizado), tema **Fluent 2**.
 
-**12 visuais:**
+### KPIs e filtros (faixa superior)
 
-| Tipo | Campos | Posição (x, y) |
+| Tipo | Conteúdo | Posição (x, y) |
 |---|---|---|
-| Card (KPI) | `CLIENTNUM` (contagem — total de clientes) | 26, 92 |
-| Card (KPI) | `Attrited_Customers` | 246, 90 |
-| Card (KPI) | `Existing_Customers` | 506, 90 |
-| Slicer | `Attrition_Flag` | 830, 92 |
-| Pizza | `Gender` | 26, 204 |
-| Colunas agrupadas | `Education_Level` × `Gender` | 609, 204 |
-| Barras agrupadas | `Income_Category` × `Gender` | 1188, 204 |
-| Colunas agrupadas | `Marital_Status` × `Gender` | 26, 596 |
-| Colunas agrupadas | `Card_Category` × `Gender` | 622, 596 |
-| Barras agrupadas | `Faixa_Idade` | 1186, 596 |
+| Card (KPI) | `CLIENTNUM` — total de clientes (contagem de linhas) | 26, 92 |
+| Card (KPI) | `Attrited_Customers` — clientes churn | 246, 90 |
+| Card (KPI) | `Existing_Customers` — clientes ativos | 506, 90 |
+| Slicer | `Attrition_Flag` — filtro interativo (Existing/Attrited) | 830, 92 |
 
-Os gráficos usam `Gender` como série (comparação masculino/feminino) e agregação de contagem.
+### Gráficos criados na página
+
+**Fileira 1 (y ≈ 204):**
+
+| Gráfico | Tipo | Eixo / categoria | Série | Ordenação |
+|---|---|---|---|---|
+| Distribuição por gênero | Pizza | `Gender` | — | Descendente |
+| Escolaridade | Colunas agrupadas | `Education_Level` | `Gender` | Descendente |
+| Faixa de renda | Barras agrupadas | `Income_Category` | `Gender` | Descendente |
+
+**Fileira 2 (y ≈ 596):**
+
+| Gráfico | Tipo | Eixo / categoria | Série | Ordenação |
+|---|---|---|---|---|
+| Estado civil | Colunas agrupadas | `Marital_Status` | `Gender` | Descendente |
+| Categoria do cartão | Colunas agrupadas | `Card_Category` | `Gender` | Descendente |
+| Faixa de idade | Barras agrupadas | `Faixa_Idade` (coluna calculada) | — | Descendente |
+
+**Notas sobre os gráficos:**
+
+- Todos os gráficos segmentam por `Gender` (comparação masculino/feminino), com exceção da pizza e do gráfico de faixa de idade.
+- A métrica utilizada é a **contagem** de clientes (Count of rows / CountNonNull).
+- A coluna calculada `Faixa_Idade` é usada no gráfico de barras da fileira inferior direita, agrupando clientes nas faixas 26-32, 33-39, 40-46, 47-52 e 53-58 anos.
+- O slicer de `Attrition_Flag` filtra todos os visuais da página (drill down cross-filter).
+
+**Layout geral (11 visuais):** 3 cards de KPI + 1 slicer + 1 pizza + 3 colunas agrupadas + 2 barras agrupadas + 1 caixa de texto (título).
 
 ---
 
