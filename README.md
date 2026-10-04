@@ -30,17 +30,6 @@ credit_customer_pb/
         └── pages/ffa9fa2325de6b9b9ad8/ # Página "Dashboard" (1920×1080)
 ```
 
-O `.pbip` (versão 1.0) registra o artefato de relatório e habilita `enableAutoRecovery`.
-
----
-
-## Modelo semântico
-
-- **Modo:** Import (`partition BankChurners`, mode: import)
-- **Cultura / idioma:** pt-BR (`sourceQueryCulture: pt-BR`)
-- **Fonte de dados:** CSV local `D:\Projetos\credit_customers\dataset\BankChurners.csv` (delimitador `,`, 23 colunas, codificação 1252)
-- **Transformações M:** cabeçalhos promovidos → tipos alterados → remoção das 2 colunas `Naive_Bayes_Classifier_*`
-
 ### Tabela `BankChurners`
 
 **Colunas de fonte (21):**
@@ -106,18 +95,6 @@ Página única **"Dashboard"** (1920×1080, `FitToPage`), título "DASHBOARD DE 
 Os gráficos usam `Gender` como série (comparação masculino/feminino) e agregação de contagem.
 
 ---
-
-## Como usar
-
-1. Abra `credit_customer.pbip` no **Power BI Desktop** (versão com suporte a projetos .pbip) — o modelo e o relatório abrem juntos.
-2. Para editar o modelo em TMDL, use o **Power BI Workbench** ou o editor TMDL do Power BI Desktop (`PBI_ProTooling: DevMode`).
-3. O relatório consome o modelo via referência de caminho (`../credit_customer.SemanticModel`), então alterações no TMDL refletem no relatório.
-
-### Pré-requisitos / observações
-
-- A fonte de dados aponta para `D:\Projetos\credit_customers\dataset\BankChurners.csv`. Se o CSV estiver em outro local, ajuste o caminho na consulta M da tabela `BankChurners` (Passo `Fonte`) ou configure via gateway/substituição de parâmetro.
-- O `.pbix` é o binário compatível para quem não usa o formato de projeto.
-- Os arquivos `.pbi/localSettings.json` e `cache.abf` são de ambiente local (contêm assinaturas de segurança específicas do usuário).
 
 ## Licença / origem dos dados
 
