@@ -1,0 +1,2753 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "bank_churner": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bank churner": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BankChurners": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "churner": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.clientnum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "CLIENTNUM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clientnum": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.attrition_flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Attrition_Flag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attrition flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Attrition_Flag": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "flag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "attrition ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrition pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrition pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrition emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrition streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.customer_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Customer_Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Customer_Age": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "client age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "shopper age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "customer oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "customer stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.dependent_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Dependent_count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dependent count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dependent_count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dependent amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.education_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Education_Level"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "education level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Education_Level": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "education quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "education threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "education amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "education tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.marital_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Marital_Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marital status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Marital_Status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "marital category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "marital condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "marital class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "marital grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.income_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Income_Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "income category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Income_Category": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "income classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "income class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "income group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "income type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "income grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "income kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.card_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Card_Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "card category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Card_Category": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "card classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "card class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "card group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "card type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "card grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "card kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.month_on_book": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Months_on_book"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month on book": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Months_on_book": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mth on book": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.total_relationship_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Total_Relationship_Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total relationship count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Relationship_Count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "relationship count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total relationship amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "relationship amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "aggregate relationship count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall relationship count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.months_inactive_12_mon": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Months_Inactive_12_mon"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "months inactive 12 mon": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month inactive 12 mon": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Months_Inactive_12_mon": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.contacts_count_12_mon": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Contacts_Count_12_mon"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "contacts count 12 mon": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "contact count 12 mon": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Contacts_Count_12_mon": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mon": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "12 mon": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "count 12 mon": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "contact amount 12 mon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "amount 12 mon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.credit_limit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Credit_Limit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "credit limit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Credit_Limit": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "limit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "credit boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "credit perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "credit bound": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "credit border": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "credit edge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "credit frontier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "bound": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "border": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.total_revolving_bal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Total_Revolving_Bal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total revolving bal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Revolving_Bal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate revolving bal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall revolving bal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.avg_open_to_buy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Avg_Open_To_Buy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg open to buy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Avg_Open_To_Buy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average open to buy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.total_amt_chng_Q4_Q1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Total_Amt_Chng_Q4_Q1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total amt chng Q4 Q1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Amt_Chng_Q4_Q1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate amt chng q4 q1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall amt chng q4 q1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.total_trans_amt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Total_Trans_Amt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total trans amt": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Trans_Amt": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate trans amt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall trans amt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.total_trans_ct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Total_Trans_Ct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total trans ct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Trans_Ct": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ct": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "trans ct": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate trans ct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall trans ct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.total_ct_chng_Q4_Q1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Total_Ct_Chng_Q4_Q1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total ct chng Q4 Q1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Ct_Chng_Q4_Q1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate ct chng q4 q1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall ct chng q4 q1": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.avg_utilization_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Avg_Utilization_Ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg utilization ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Avg_Utilization_Ratio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average utilization ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "avg utilization relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg utilization percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg utilization quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg utilization relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg utilization proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg utilization share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg utilization fraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg utilization part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.existing_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Existing_Customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "existing customers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Existing_Customers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customers": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "existing clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "existing patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "existing client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "existing consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "existing punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Clientes Existentes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.attrited_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Attrited_Customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attrited customers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Attrited_Customers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "attrited clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrited patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrited client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrited consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrited punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "attrited regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "attrited custom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "attrited trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "attrited business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "attrited following": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Clientes Churn": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "bank_churner.faixa_idade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "BankChurners",
+			          "ConceptualProperty": "Faixa_Idade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa idade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Faixa_Idade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "bank_churner_has_attrited_customers": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.attrited_customers": {
+			          "Target": {
+			            "Entity": "bank_churner.attrited_customers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.attrited_customers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_attrited_customers"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_existing_customers": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.existing_customers": {
+			          "Target": {
+			            "Entity": "bank_churner.existing_customers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.existing_customers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_existing_customers"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_avg_utilization_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.avg_utilization_ratio": {
+			          "Target": {
+			            "Entity": "bank_churner.avg_utilization_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.avg_utilization_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_avg_utilization_ratios"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_total_ct_chng_Q4_Q1": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.total_ct_chng_Q4_Q1": {
+			          "Target": {
+			            "Entity": "bank_churner.total_ct_chng_Q4_Q1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.total_ct_chng_Q4_Q1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_total_ct_chng_Q4_Q1"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_total_trans_ct": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.total_trans_ct": {
+			          "Target": {
+			            "Entity": "bank_churner.total_trans_ct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.total_trans_ct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_total_trans_ct"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_total_trans_amt": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.total_trans_amt": {
+			          "Target": {
+			            "Entity": "bank_churner.total_trans_amt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.total_trans_amt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_total_trans_amts"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_total_amt_chng_Q4_Q1": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.total_amt_chng_Q4_Q1": {
+			          "Target": {
+			            "Entity": "bank_churner.total_amt_chng_Q4_Q1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.total_amt_chng_Q4_Q1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_total_amt_chng_Q4_Q1"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_avg_open_to_buy": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.avg_open_to_buy": {
+			          "Target": {
+			            "Entity": "bank_churner.avg_open_to_buy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.avg_open_to_buy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_avg_open_to_buy"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_total_revolving_bal": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.total_revolving_bal": {
+			          "Target": {
+			            "Entity": "bank_churner.total_revolving_bal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.total_revolving_bal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_total_revolving_bals"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_credit_limit": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.credit_limit": {
+			          "Target": {
+			            "Entity": "bank_churner.credit_limit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.credit_limit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_credit_limits"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_contacts_count_12_mon": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.contacts_count_12_mon": {
+			          "Target": {
+			            "Entity": "bank_churner.contacts_count_12_mon"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.contacts_count_12_mon"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_contacts_count_12_mon"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_months_inactive_12_mon": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.months_inactive_12_mon": {
+			          "Target": {
+			            "Entity": "bank_churner.months_inactive_12_mon"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.months_inactive_12_mon"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_months_inactive_12_mon"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_total_relationship_count": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.total_relationship_count": {
+			          "Target": {
+			            "Entity": "bank_churner.total_relationship_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.total_relationship_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_total_relationship_counts"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_month_on_book": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.month_on_book": {
+			          "Target": {
+			            "Entity": "bank_churner.month_on_book"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.month_on_book"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_month_on_book"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_card_category": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.card_category": {
+			          "Target": {
+			            "Entity": "bank_churner.card_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.card_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_card_categories"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_income_category": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.income_category": {
+			          "Target": {
+			            "Entity": "bank_churner.income_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.income_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_income_categories"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_marital_status": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.marital_status": {
+			          "Target": {
+			            "Entity": "bank_churner.marital_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.marital_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_marital_statuses"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_education_level": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.education_level": {
+			          "Target": {
+			            "Entity": "bank_churner.education_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.education_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_education_levels"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_dependent_count": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.dependent_count": {
+			          "Target": {
+			            "Entity": "bank_churner.dependent_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.dependent_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_dependent_counts"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.gender": {
+			          "Target": {
+			            "Entity": "bank_churner.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_genders"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_customer_age": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.customer_age": {
+			          "Target": {
+			            "Entity": "bank_churner.customer_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.customer_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_customer_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "bank_churner.customer_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customer_age_indicates_how_old_bank_churners_are"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_attrition_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.attrition_flag": {
+			          "Target": {
+			            "Entity": "bank_churner.attrition_flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.attrition_flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_attrition_flags"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_clientnum": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.clientnum": {
+			          "Target": {
+			            "Entity": "bank_churner.clientnum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.clientnum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_clientnums"
+			        }
+			      ]
+			    },
+			    "bank_churner_churn": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Verbs": [
+			              {
+			                "churn": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "bank_churners_churn"
+			        }
+			      ]
+			    },
+			    "bank_churner_has_faixa_idade": {
+			      "Binding": {
+			        "ConceptualEntity": "BankChurners"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bank_churner": {
+			          "Target": {
+			            "Entity": "bank_churner"
+			          }
+			        },
+			        "bank_churner.faixa_idade": {
+			          "Target": {
+			            "Entity": "bank_churner.faixa_idade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bank_churner"
+			            },
+			            "Object": {
+			              "Role": "bank_churner.faixa_idade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bank_churners_have_faixa_idades"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

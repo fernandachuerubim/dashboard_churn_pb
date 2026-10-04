@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "credit_customer"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3c7c117e-1cbd-4d79-a5f6-323873ca4c98"
+  }
+}

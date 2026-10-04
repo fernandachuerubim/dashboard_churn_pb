@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "credit_customer"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e05b354c-9750-47fd-bb35-8eee06526c67"
+  }
+}

@@ -1,0 +1,239 @@
+table BankChurners
+	lineageTag: ffe95e3f-ea37-45c2-bba3-a0ad2a0de255
+
+	measure Existing_Customers =
+			
+			CALCULATE(
+			    COUNTROWS(BankChurners),
+			    KEEPFILTERS(
+			        BankChurners[Attrition_Flag] = "Existing Customer"
+			    )
+			)
+		formatString: 0
+		lineageTag: dabaf76d-c4b0-40ad-80c1-91a057c53aee
+
+	measure Attrited_Customers =
+			
+			CALCULATE(
+			    COUNTROWS(BankChurners),
+			    KEEPFILTERS(
+			        BankChurners[Attrition_Flag] = "Attrited Customer"
+			    )
+			)
+		formatString: 0
+		lineageTag: a9c35c8d-9fba-4b94-8be6-9762b195d6a4
+
+	column CLIENTNUM
+		dataType: int64
+		formatString: 0
+		lineageTag: 0d820284-827a-4588-98a4-4f20a5cabe30
+		summarizeBy: sum
+		sourceColumn: CLIENTNUM
+
+		annotation SummarizationSetBy = Automatic
+
+	column Attrition_Flag
+		dataType: string
+		lineageTag: 61c4aebc-3170-40fa-8590-1b7c25747a9c
+		summarizeBy: none
+		sourceColumn: Attrition_Flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column Customer_Age
+		dataType: int64
+		formatString: 0
+		lineageTag: a156cb1d-5567-47cd-a61c-344bb5d0ab88
+		summarizeBy: sum
+		sourceColumn: Customer_Age
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: 75227790-be2f-48ba-ba84-173768f65965
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dependent_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 69534c01-efed-451d-9c1d-c8ed4e279cbb
+		summarizeBy: sum
+		sourceColumn: Dependent_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column Education_Level
+		dataType: string
+		lineageTag: b5fa62ac-a82d-4fcb-b9ef-6509484e42cd
+		summarizeBy: none
+		sourceColumn: Education_Level
+
+		annotation SummarizationSetBy = Automatic
+
+	column Marital_Status
+		dataType: string
+		lineageTag: 1ca7e9b5-2717-46b5-93f6-8d9b3bcb41d0
+		summarizeBy: none
+		sourceColumn: Marital_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Income_Category
+		dataType: string
+		lineageTag: 37eefd25-a375-4974-9c20-5dc0b40b93b4
+		summarizeBy: none
+		sourceColumn: Income_Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column Card_Category
+		dataType: string
+		lineageTag: 0dc9fed2-3496-4c57-a9f9-c6689b74c243
+		summarizeBy: none
+		sourceColumn: Card_Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column Months_on_book
+		dataType: int64
+		formatString: 0
+		lineageTag: a7c7a264-0bae-492a-984d-bf6bd5ce1ebf
+		summarizeBy: sum
+		sourceColumn: Months_on_book
+
+		annotation SummarizationSetBy = Automatic
+
+	column Total_Relationship_Count
+		dataType: int64
+		formatString: 0
+		lineageTag: 46ff5d17-fddd-49b9-b8e7-283c5697443c
+		summarizeBy: sum
+		sourceColumn: Total_Relationship_Count
+
+		annotation SummarizationSetBy = Automatic
+
+	column Months_Inactive_12_mon
+		dataType: int64
+		formatString: 0
+		lineageTag: 7ccc34e9-226c-4e8e-a962-13ca37e017a4
+		summarizeBy: sum
+		sourceColumn: Months_Inactive_12_mon
+
+		annotation SummarizationSetBy = Automatic
+
+	column Contacts_Count_12_mon
+		dataType: int64
+		formatString: 0
+		lineageTag: 780c09c1-4786-43af-9910-4223653548ee
+		summarizeBy: sum
+		sourceColumn: Contacts_Count_12_mon
+
+		annotation SummarizationSetBy = Automatic
+
+	column Credit_Limit
+		dataType: int64
+		formatString: 0
+		lineageTag: 0eae982a-cc47-4d70-a2f9-e8e461021534
+		summarizeBy: sum
+		sourceColumn: Credit_Limit
+
+		annotation SummarizationSetBy = Automatic
+
+	column Total_Revolving_Bal
+		dataType: int64
+		formatString: 0
+		lineageTag: c01f3787-e061-4b25-9c2a-1d81107eb4aa
+		summarizeBy: sum
+		sourceColumn: Total_Revolving_Bal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Avg_Open_To_Buy
+		dataType: int64
+		formatString: 0
+		lineageTag: 38aca614-d2b6-474b-83b1-42cb7e8d0a72
+		summarizeBy: sum
+		sourceColumn: Avg_Open_To_Buy
+
+		annotation SummarizationSetBy = Automatic
+
+	column Total_Amt_Chng_Q4_Q1
+		dataType: int64
+		formatString: 0
+		lineageTag: 6ebdf079-f30c-4265-896a-79e3d55a63d3
+		summarizeBy: sum
+		sourceColumn: Total_Amt_Chng_Q4_Q1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Total_Trans_Amt
+		dataType: int64
+		formatString: 0
+		lineageTag: 66972098-8af2-41a6-aa4e-420b949ef5bb
+		summarizeBy: sum
+		sourceColumn: Total_Trans_Amt
+
+		annotation SummarizationSetBy = Automatic
+
+	column Total_Trans_Ct
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b6d8025-8dca-420f-a0cb-c3491a68428a
+		summarizeBy: sum
+		sourceColumn: Total_Trans_Ct
+
+		annotation SummarizationSetBy = Automatic
+
+	column Total_Ct_Chng_Q4_Q1
+		dataType: int64
+		formatString: 0
+		lineageTag: f600d279-45d3-4577-a611-3bd7805ec4cc
+		summarizeBy: sum
+		sourceColumn: Total_Ct_Chng_Q4_Q1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Avg_Utilization_Ratio
+		dataType: int64
+		formatString: 0
+		lineageTag: 26c0d7a2-6be4-45cd-abcd-ef1441bbfb29
+		summarizeBy: sum
+		sourceColumn: Avg_Utilization_Ratio
+
+		annotation SummarizationSetBy = Automatic
+
+	column Faixa_Idade =
+			
+			SWITCH(
+			    TRUE(),
+			    [Customer_Age] >= 26 && [Customer_Age] <= 32, "26-32",
+			    [Customer_Age] >= 33 && [Customer_Age] <= 39, "33-39",
+			    [Customer_Age] >= 40 && [Customer_Age] <= 46, "40-46",
+			    [Customer_Age] >= 47 && [Customer_Age] <= 52, "47-52",
+			    [Customer_Age] >= 53 && [Customer_Age] <= 58, "53-58",
+			    BLANK()
+			)
+		lineageTag: bd489195-dc44-4cc1-9273-4fc4a015327f
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition BankChurners = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("D:\Projetos\credit_customers\dataset\BankChurners.csv"),[Delimiter=",", Columns=23, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"CLIENTNUM", Int64.Type}, {"Attrition_Flag", type text}, {"Customer_Age", Int64.Type}, {"Gender", type text}, {"Dependent_count", Int64.Type}, {"Education_Level", type text}, {"Marital_Status", type text}, {"Income_Category", type text}, {"Card_Category", type text}, {"Months_on_book", Int64.Type}, {"Total_Relationship_Count", Int64.Type}, {"Months_Inactive_12_mon", Int64.Type}, {"Contacts_Count_12_mon", Int64.Type}, {"Credit_Limit", Int64.Type}, {"Total_Revolving_Bal", Int64.Type}, {"Avg_Open_To_Buy", Int64.Type}, {"Total_Amt_Chng_Q4_Q1", Int64.Type}, {"Total_Trans_Amt", Int64.Type}, {"Total_Trans_Ct", Int64.Type}, {"Total_Ct_Chng_Q4_Q1", Int64.Type}, {"Avg_Utilization_Ratio", Int64.Type}, {"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1", type number}, {"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2", Int64.Type}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1", "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
